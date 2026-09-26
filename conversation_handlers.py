@@ -30,9 +30,9 @@ AUTO_REPLY_PATTERNS = [
 ]
 
 COMMITMENT_PATTERNS = [
-    r"\b(yes|yeah|yup|ok|okay|sure|proceed|do it|let'?s do it|lets do it|whats next|what'?s next|what's next|go ahead|send it|done|publish|update it|move ahead|continue)\b",
+    r"\b(ok\s+(lets|let\'s)\s+do\s+it|ok\s+lets\s+do\s+it|whats\s+next|what\s+is\s+next|what\'?s\s+next|yes|yeah|yup|okay|sure|proceed|do it|go ahead|send it|done|publish|update it|move ahead|continue)\b",
     r"\b(haan|theek hai|karo|bhej do|kar do|shuru karo|lagao|chalo)\b",
-    r"\b(ok\s+(lets|let's)\s+do\s+it|whats\s+next|what\s+is\s+next)\b",
+    r"\b(ok\s+(lets|let\'s)\s+do\s+it|whats\s+next|what\s+is\s+next)\b",
 ]
 
 HOSTILE_PATTERNS = [
