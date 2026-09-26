@@ -24,7 +24,7 @@ from pathlib import Path
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-BOT_URL = "http://localhost:8080"
+BOT_URL = "https://magicpin-ai-challenge-5f1t.onrender.com"
 
 
 def http_req(method: str, path: str, data: dict = None):
